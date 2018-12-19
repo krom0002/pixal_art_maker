@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pixels!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="pixal-art-maker/styles.css">
+</head>
+
+<body>
+    <h1>Pixels!</h1>
+
+    <div class="small_head_box">
+    <h2>Choose Grid Size</h2>
+    </div>
+    <!-- input form to get grid height and width-->
+    <form id="sizePicker">
+        Height:
+        <!-- input for grid height-->
+        <input type="number" id="inputHeight" name="height" min="0" value="1"> 
+        Width:
+        <!-- input for grid width-->
+        <input type="number" id="inputWidth" name="width" min="0" value="1">
+        <!--button to submit grid size-->
+        <input type="submit" id="inputSubmit">
+    </form>
+
+    <h2>Pick A Color</h2>
+    <!-- input for color picker-->
+    <input type="color" id="colorPicker">
+
+    <h2>Design Canvas</h2>
+    <!-- grid area-->
+    <table id="pixelCanvas"></table>
+
+    <!--button to clear color-->
+    <button id="clearCanvas"> Clear Canvas </button>
+    <!--button to clear grid size-->
+    <button id="resetCanvas"> Reset Canvas </button>
+
+    <!-- Import JQuery from Microsoft-->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <!-- Js script file-->
+    <script src="pixal-art-maker/designs.js"></script>
+</body>
+
+</html>

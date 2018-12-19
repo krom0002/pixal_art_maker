@@ -1,0 +1,82 @@
+/*main*/
+
+body {
+    text-align: center;
+    background-color: beige;
+    margin: 155px;
+}
+
+
+/*_____________________*/
+
+
+/*headings*/
+
+h1 {
+    background-color: bisque;
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    border-radius: 10%;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    background-color: cornflowerblue;
+    border-radius: 10%; 
+    
+}
+
+
+/*targets the first occurrence of an element within its container (NOT SURE WHY THIS IS HERE)*/
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+
+/*_____________________*/
+
+/* .small_head_box {
+
+    align-content: center;
+    background-color: brown;    
+    align-items: center;
+} */
+
+/*table*/
+
+
+/*TARGET THIS AREA*/
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+
+/*_____________________*/
+
+
+/*input*/
+
+
+/*IS THIS THE INPUT BUTTON?*/
+
+input[type="number"] {
+    width: 6em;
+}
