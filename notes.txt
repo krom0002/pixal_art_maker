@@ -1,0 +1,5 @@
+1. Page Loads
+2. Submitting the form builds a grid canvas
+3. Clicking on a cell in the canvas applies a color
+4. Picking a color and clicking a cell shows new color
+5. App works correctly with tables on many different dimensions
