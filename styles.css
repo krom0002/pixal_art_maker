@@ -6,10 +6,7 @@ body {
     margin: 155px;
 }
 
-
 /*_____________________*/
-
-
 /*headings*/
 
 h1 {
@@ -23,12 +20,11 @@ h1 {
 h2 {
     margin: 1em 0 0.25em;
     background-color: cornflowerblue;
-    border-radius: 10%; 
-    
+    border-radius: 10%;    
 }
 
 
-/*targets the first occurrence of an element within its container (NOT SURE WHY THIS IS HERE)*/
+/*targets the first occurrence of an element within its container*/
 
 h2:first-of-type {
     margin-top: 0.5em;
@@ -36,17 +32,13 @@ h2:first-of-type {
 
 
 /*_____________________*/
-
 /* .small_head_box {
 
     align-content: center;
     background-color: brown;    
     align-items: center;
 } */
-
 /*table*/
-
-
 /*TARGET THIS AREA*/
 
 table,
@@ -70,12 +62,7 @@ td {
 
 
 /*_____________________*/
-
-
 /*input*/
-
-
-/*IS THIS THE INPUT BUTTON?*/
 
 input[type="number"] {
     width: 6em;
